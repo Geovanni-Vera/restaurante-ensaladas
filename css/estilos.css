@@ -130,7 +130,7 @@ h1,h2,h3{
     
 }
 .card:hover{
- background-color: blueviolet;       
+    background-color: rgba(70, 160, 35, 0.747);       
 }
 .contenedor-imagen{
     max-width: 100%;
@@ -239,4 +239,50 @@ input[type="submit"]:hover {
         display: grid;
         grid-template-columns: 1fr 1fr ;
     }
+}
+@media (min-width: 768px) {
+    .navegador{
+        flex-direction: row;
+    }
+    .aux{
+        height: 60vh;
+    }
+    .contenedor-hero{
+        height: 60vh;
+    }
+    .contenedor-vegano{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .card{
+        height: 45vh;
+    }
+    .pie-de-pagina h3{
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 3.8rem;
+    }
+    h2{
+        font-size: 2.8rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1024px) {
+    .aux{
+        height: 80vh;
+    }
+    .contenedor-hero{
+        height: 80vh;
+    }
+    .contenedor-vegano{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .card{
+        height: 60vh;
+    }
+   
 }
