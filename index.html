@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/estilos.css as=" style">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="cuerpo">
+    <header class="encabezado">
+        <nav class="navegador">
+            <a href="#" class="no-decoracion mayusculas">inicio</a>
+            <a href="#" class="no-decoracion mayusculas">menu</a>
+            <a href="#" class="no-decoracion mayusculas">sobre nosotros</a>
+            <a href="#" class="no-decoracion mayusculas">contactanos</a>
+        </nav>
+        <div class="aux">
+            <div class="contenedor-hero">
+                <h1 class="mayusculas">
+                    Ensaladísimo
+                </h1>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="principal">
+        <article class="contenedor-menu">
+            <h2>menu vegano</h2>
+
+            <section class="contenedor-vegano">
+                <section class="card">
+                    <section class="contenedor-imagen fresa">
+                        <div class="oscurecer"></div>
+                    </section>
+                    <h3>Ensalada de espinacas y fresas:</h3>
+                    <p>con espinacas, fresas, nueces y aderezo de vinagreta balsámica.</p>
+                </section>
+                <section class="card">
+                    <section class="contenedor-imagen tomate">
+                        <div class="oscurecer"></div>
+                    </section>
+                    <h3>Ensalada de tomate y aguacate:</h3>
+                    <p>con tomate, aguacate, cebolla roja, cilantro y aderezo de lima.</p>
+                </section>
+                <section class="card">
+                    <section class="contenedor-imagen quinoa">
+                        <div class="oscurecer"></div>
+                    </section>
+                    <h3>Ensalada de quinoa: </h3>
+                    <p>con quinoa, aguacate, tomate, pepino, cebolla roja y aderezo de limón.</p>
+                </section>
+                <section class="card">
+                    <section class="contenedor-imagen garbanzos">
+                        <div class="oscurecer"></div>
+                    </section>
+                    <h3>Ensalada de garbanzos: </h3>
+                    <p>con garbanzos, tomate, pepino, cebolla roja, perejil y aderezo de aceite de oliva y limón.</p>
+                </section>
+                <section class="card">
+                    <section class="contenedor-imagen remolacha">
+                        <div class="oscurecer"></div>
+                    </section>
+                    <h3>Ensalada de remolacha y naranja:</h3>
+                    <p>con remolacha, naranja, nueces y aderezo de miel y mostaza.</p>
+                </section>
+                <section class="card">
+                    <section class="contenedor-imagen lentejas">
+                        <div class="oscurecer"></div>
+                    </section>
+                    <h3>Ensalada de lentejas:</h3>
+                    <p> con lentejas, tomate, pepino, cebolla roja, perejil y aderezo de vinagreta de mostaza.</p>
+                </section>
+                <section class="card">
+                    <section class="contenedor-imagen col">
+                        <div class="oscurecer"></div>
+                    </section>
+                    <h3>Ensalada de col rizada:</h3>
+                    <p>con col rizada, manzana, nueces y aderezo de vinagreta de miel.</p>
+                </section>
+                <section class="card">
+                    <section class="contenedor-imagen aguacate">
+                        <div class="oscurecer"></div>
+                    </section>
+                    <h3>Ensalada de aguacate y mango:</h3>
+                    <p> con aguacate, mango, cebolla roja y aderezo de cilantro y limón.</p>
+                </section>
+            </section>
+        </article>
+        <article class="contacto">
+            <section class="formulario">
+                <h2>Formulario de contacto</h2>
+                <form action="enviar.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <section class="pie-de-pagina">
+            <h3>&copy todos los derechos resrevados</h3>
+        </section>
+    </footer>
+
+</body>
+
+</html>
