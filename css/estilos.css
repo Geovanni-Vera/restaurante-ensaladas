@@ -118,16 +118,32 @@ h1,h2,h3{
     margin: 1rem;
     border-radius:1rem ;
     padding: 1rem;
-    cursor: pointer;
 }
-.card p{
+.card__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card__texto p{
     color: #f5f7fa;
     text-align: center;
     padding: 1rem;
 }
-.card h3{
+.card__texto h3{
     color: #f5f7fa;
     
+}
+.card__texto a{
+    color: #fff;
+    background-color: rgba(63, 59, 59,.4);
+    padding: 1.5rem;
+    border-radius: 2rem;
+    cursor:pointer;
+}
+.card__texto a:hover{
+    background-color: #ffffffad;
+    color: black;
 }
 .card:hover{
     background-color: rgba(70, 160, 35, 0.747);       
@@ -165,6 +181,28 @@ h1,h2,h3{
 }
 .aguacate{
     background-image: url(../imagenes/aguacate.jpg);
+}
+/* NOSOTROS */
+.nosotros{
+    max-width: 95%;
+    margin: 4rem auto 1rem auto;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 2rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.nosotros__titulo h2{
+    font-weight: bold;
+    color: #fff;
+}
+
+.nosotros__texto p{
+    text-align:justify;
+    color: #fff;
+    padding: 1rem;
 }
 /*Contacto*/
 .contacto{
@@ -222,6 +260,9 @@ input[type="submit"]:hover {
     background-color: rgb(63, 59, 59);
     color: #f5f7fa;
     padding: 1rem;
+}
+.pie-de-pagina h3{
+    font-size: 1.4rem;
 }
 
 /*Responsive*/
