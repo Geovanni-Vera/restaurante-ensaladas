@@ -186,7 +186,7 @@ h1,h2,h3{
 .nosotros{
     max-width: 95%;
     margin: 4rem auto 1rem auto;
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.911);
     border-radius: 2rem;
     padding: 5rem;
     display: flex;
@@ -257,7 +257,7 @@ input[type="submit"]:hover {
 }
 /*Pie de pagina*/
 .pie-de-pagina{
-    background-color: rgb(63, 59, 59);
+    background-color: rgb(14, 13, 13);
     color: #f5f7fa;
     padding: 1rem;
 }
